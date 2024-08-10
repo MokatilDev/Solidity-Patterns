@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/github/provable-things/ethereum-api/contracts/solc-v0.8.x/provableAPI.sol": "usingProvable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/github/provable-things/ethereum-api/contracts/solc-v0.8.x/interfaces/provable-address-resolver-interface.sol": {
+			"keccak256": "0x6aec02be5e3779d08ac4c68b129a506beded3a3bf27c69868bc9789cea89cc77",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b6a8463aa2c9443e56f4b2603314117731456fe85c6aac090e025c5e251dbdd7",
+				"dweb:/ipfs/QmR4FkbvVdHJqibdiHWkLjkwYkLF42shd6M2uc7QEprrcd"
+			]
+		},
+		".deps/github/provable-things/ethereum-api/contracts/solc-v0.8.x/interfaces/provable-interface.sol": {
+			"keccak256": "0x00fbb7e944669a7ea71f3414df4712e9d2127dac29011dc3599bf699a82bf6f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f7e372889596329de05ee57be097e4a0d2dea260aafb8d4b7de267b9d2be3297",
+				"dweb:/ipfs/QmSyTywmzfeUqtqAjPHwYuqiaHepjSMpBogvJV7Snr6g1q"
+			]
+		},
+		".deps/github/provable-things/ethereum-api/contracts/solc-v0.8.x/libraries/BUFFER.sol": {
+			"keccak256": "0x598eb92db481bb76feca2d4f2d9d97cbb14cc0adf2c2724fc741de07479a6542",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0013002ce1f50edc5dce0c2df482bcc954f0daa9475853996c8ca540b74fea03",
+				"dweb:/ipfs/QmQ1kznu1Z5MYGRDEi3gJfSSd6kRY5FfjeKsc4k9ZS2osh"
+			]
+		},
+		".deps/github/provable-things/ethereum-api/contracts/solc-v0.8.x/libraries/CBOR.sol": {
+			"keccak256": "0xc436bf379b38f933222b3e45629a4bbb566f66c75d84772cc7c910f1d48bd6d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://00eac20476fa397109a32f918554dc122ecca87599564d00b5ab17bbc09c6e2e",
+				"dweb:/ipfs/QmPeKEPFV1DRkEB2tCqhq4m1ZjkiVbtubeAAZz4ELaz2Zh"
+			]
+		},
+		".deps/github/provable-things/ethereum-api/contracts/solc-v0.8.x/provableAPI.sol": {
+			"keccak256": "0x54f49eb37a4500ce9057c41d6eda242becf0c5baa1c30522b196da41c265d0f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5edd74acf1b56c30dfc5b3c481dac2b896ee2e0a0b38abae8e96e187365e49be",
+				"dweb:/ipfs/QmbH1wPeaTWwJwvecCvh8BeD5iQY3DQ4DHTGpqJkvLBZjA"
+			]
+		}
+	},
+	"version": 1
+}

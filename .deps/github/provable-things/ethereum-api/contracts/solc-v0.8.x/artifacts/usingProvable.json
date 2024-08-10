@@ -1,0 +1,154 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600e575f80fd5b50603e80601a5f395ff3fe60806040525f80fdfea26469706673582212201dd2c819bf0830eaaae808fc89c6aa0dd6b467b45a1b1c4081d8b1b7b58c342f64736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SAR 0xD2 0xC8 NOT 0xBF ADDMOD ADDRESS 0xEA 0xAA 0xE8 ADDMOD 0xFC DUP10 0xC6 0xAA 0xD 0xD6 0xB4 PUSH8 0xB45A1B1C4081D8B1 0xB7 0xB5 DUP13 CALLVALUE 0x2F PUSH5 0x736F6C6343 STOP ADDMOD BYTE STOP CALLER ",
+			"sourceMap": "1697:47421:4:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f80fdfea26469706673582212201dd2c819bf0830eaaae808fc89c6aa0dd6b467b45a1b1c4081d8b1b7b58c342f64736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SAR 0xD2 0xC8 NOT 0xBF ADDMOD ADDRESS 0xEA 0xAA 0xE8 ADDMOD 0xFC DUP10 0xC6 0xAA 0xD 0xD6 0xB4 PUSH8 0xB45A1B1C4081D8B1 0xB7 0xB5 DUP13 CALLVALUE 0x2F PUSH5 0x736F6C6343 STOP ADDMOD BYTE STOP CALLER ",
+			"sourceMap": "1697:47421:4:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "64",
+				"totalCost": "12464"
+			},
+			"internal": {
+				"ba2cbor(bytes memory[] memory)": "infinite",
+				"copyBytes(bytes memory,uint256,uint256,bytes memory,uint256)": "infinite",
+				"ecrecovery(bytes32,bytes memory)": "infinite",
+				"getCodeSize(address)": "infinite",
+				"indexOf(string memory,string memory)": "infinite",
+				"matchBytes32Prefix(bytes32,bytes memory,uint256)": "infinite",
+				"parseAddr(string memory)": "infinite",
+				"parseInt(string memory)": "infinite",
+				"parseInt(string memory,uint256)": "infinite",
+				"provable_cbAddress()": "infinite",
+				"provable_getNetworkName()": "infinite",
+				"provable_getPrice(string memory)": "infinite",
+				"provable_getPrice(string memory,uint256)": "infinite",
+				"provable_newRandomDSQuery(uint256,uint256,uint256)": "infinite",
+				"provable_query(string memory,bytes memory[1] memory)": "infinite",
+				"provable_query(string memory,bytes memory[1] memory,uint256)": "infinite",
+				"provable_query(string memory,bytes memory[2] memory)": "infinite",
+				"provable_query(string memory,bytes memory[2] memory,uint256)": "infinite",
+				"provable_query(string memory,bytes memory[3] memory)": "infinite",
+				"provable_query(string memory,bytes memory[3] memory,uint256)": "infinite",
+				"provable_query(string memory,bytes memory[4] memory)": "infinite",
+				"provable_query(string memory,bytes memory[4] memory,uint256)": "infinite",
+				"provable_query(string memory,bytes memory[5] memory)": "infinite",
+				"provable_query(string memory,bytes memory[5] memory,uint256)": "infinite",
+				"provable_query(string memory,bytes memory[] memory)": "infinite",
+				"provable_query(string memory,bytes memory[] memory,uint256)": "infinite",
+				"provable_query(string memory,string memory)": "infinite",
+				"provable_query(string memory,string memory,string memory)": "infinite",
+				"provable_query(string memory,string memory,string memory,uint256)": "infinite",
+				"provable_query(string memory,string memory,uint256)": "infinite",
+				"provable_query(string memory,string memory[1] memory)": "infinite",
+				"provable_query(string memory,string memory[1] memory,uint256)": "infinite",
+				"provable_query(string memory,string memory[2] memory)": "infinite",
+				"provable_query(string memory,string memory[2] memory,uint256)": "infinite",
+				"provable_query(string memory,string memory[3] memory)": "infinite",
+				"provable_query(string memory,string memory[3] memory,uint256)": "infinite",
+				"provable_query(string memory,string memory[4] memory)": "infinite",
+				"provable_query(string memory,string memory[4] memory,uint256)": "infinite",
+				"provable_query(string memory,string memory[5] memory)": "infinite",
+				"provable_query(string memory,string memory[5] memory,uint256)": "infinite",
+				"provable_query(string memory,string memory[] memory)": "infinite",
+				"provable_query(string memory,string memory[] memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,bytes memory[1] memory)": "infinite",
+				"provable_query(uint256,string memory,bytes memory[1] memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,bytes memory[2] memory)": "infinite",
+				"provable_query(uint256,string memory,bytes memory[2] memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,bytes memory[3] memory)": "infinite",
+				"provable_query(uint256,string memory,bytes memory[3] memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,bytes memory[4] memory)": "infinite",
+				"provable_query(uint256,string memory,bytes memory[4] memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,bytes memory[5] memory)": "infinite",
+				"provable_query(uint256,string memory,bytes memory[5] memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,bytes memory[] memory)": "infinite",
+				"provable_query(uint256,string memory,bytes memory[] memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,string memory)": "infinite",
+				"provable_query(uint256,string memory,string memory,string memory)": "infinite",
+				"provable_query(uint256,string memory,string memory,string memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,string memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,string memory[1] memory)": "infinite",
+				"provable_query(uint256,string memory,string memory[1] memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,string memory[2] memory)": "infinite",
+				"provable_query(uint256,string memory,string memory[2] memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,string memory[3] memory)": "infinite",
+				"provable_query(uint256,string memory,string memory[3] memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,string memory[4] memory)": "infinite",
+				"provable_query(uint256,string memory,string memory[4] memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,string memory[5] memory)": "infinite",
+				"provable_query(uint256,string memory,string memory[5] memory,uint256)": "infinite",
+				"provable_query(uint256,string memory,string memory[] memory)": "infinite",
+				"provable_query(uint256,string memory,string memory[] memory,uint256)": "infinite",
+				"provable_randomDS_getSessionPubKeyHash()": "infinite",
+				"provable_randomDS_proofVerify__main(bytes memory,bytes32,bytes memory,string memory)": "infinite",
+				"provable_randomDS_proofVerify__returnCode(bytes32,string memory,bytes memory)": "infinite",
+				"provable_randomDS_proofVerify__sessionKeyValidity(bytes memory,uint256)": "infinite",
+				"provable_randomDS_setCommitment(bytes32,bytes32)": "infinite",
+				"provable_setCustomGasPrice(uint256)": "infinite",
+				"provable_setNetwork()": "infinite",
+				"provable_setNetwork(uint8)": "infinite",
+				"provable_setNetworkName(string memory)": "infinite",
+				"provable_setProof(bytes1)": "infinite",
+				"safeMemoryCleaner()": "infinite",
+				"safeParseInt(string memory)": "infinite",
+				"safeParseInt(string memory,uint256)": "infinite",
+				"safer_ecrecover(bytes32,uint8,bytes32,bytes32)": "infinite",
+				"strCompare(string memory,string memory)": "infinite",
+				"strConcat(string memory,string memory)": "infinite",
+				"strConcat(string memory,string memory,string memory)": "infinite",
+				"strConcat(string memory,string memory,string memory,string memory)": "infinite",
+				"strConcat(string memory,string memory,string memory,string memory,string memory)": "infinite",
+				"stra2cbor(string memory[] memory)": "infinite",
+				"uint2str(uint256)": "infinite",
+				"verifySig(bytes32,bytes memory,bytes memory)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
